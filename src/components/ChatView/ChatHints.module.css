@@ -1,0 +1,22 @@
+.hints {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 20px 12px;
+}
+
+.chip {
+  background: #ede9fe;
+  color: #6366f1;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: inherit;
+}
+
+.chip:hover {
+  background: #ddd6fe;
+}

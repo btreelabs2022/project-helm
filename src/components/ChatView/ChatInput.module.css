@@ -1,0 +1,73 @@
+.container {
+  padding: 12px 20px;
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.inputRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+.attachBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #6b7280;
+  padding: 2px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.attachBtn:hover:not(:disabled) {
+  color: #6366f1;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  color: #111827;
+  font-family: inherit;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:disabled {
+  cursor: not-allowed;
+}
+
+.sendBtn {
+  background: #6366f1;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+
+.sendBtn:hover:not(:disabled) {
+  background: #4f46e5;
+}
+
+.sendBtn:disabled {
+  background: #c7d2fe;
+  cursor: not-allowed;
+}

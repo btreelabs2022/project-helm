@@ -1,0 +1,11 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.taskList {
+  flex: 1;
+  overflow-y: auto;
+}
